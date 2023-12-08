@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  margin-left: 10em;
+  margin-right: 10em;
+  font-family: 'Gotham';
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(../src/assets/GothamMedium.ttf);
+}
+
+a{
+  text-decoration: none;
+}
+
+.App{
+  margin-bottom: 50px;
+}
+
+.product-card{ 
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 16px;
+  margin: 10px 10px 0px 0px;
+  width: 200px;
+  color: black;
+}
+
+.product-card div{
+  margin-bottom: 5px; 
+}
+
+.product-card img{
+  width: 100%;
+}
+
+.product-card h3 {  
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.itemBar{
+  margin-bottom: 5px;
+  padding: 0px;
+  font-style: italic;
+  font-size: 21px;
+  box-shadow: 0px 2px 0px 0px black;
+}
+
+.itemBar p{
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.price{
+  color: orange;
+  font-weight: bold;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; /* Adjust as needed */
+}     
+
+.details-container h3{
+  height: 50px;
+}
+
+.companyContainer{
+  box-shadow: 2px 2px 0px 0px black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.companyContainer img{
+  width: 76px;
+  height: 76px;
+}
+
+.companyContainer p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px; /* Adjust the max-width as needed */
+}
+
+.companyContainer h4{
+  color: green;
+}
+
+.aboutContainer{
+  margin-top: 15px;
+  background: gray;
+}
+
+.aboutContainer p{
+  font-size: 21px;
+}
+
+.aboutContainer img{
+  margin-top: 30px;
+  width: 200px;
+}

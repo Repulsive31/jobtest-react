@@ -1,0 +1,32 @@
+/* CategoryBar.css */
+.categoryBar {
+    display: flex;
+    margin: 10px; /* Add margin to the categoryBar for spacing */
+  }
+  
+  .categoryProduct {
+    width: 30%; /* Adjust the width of categoryProduct as needed */
+    box-sizing: border-box;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .categoryItems {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    gap: 10px; /* Adjust the gap between items as needed */
+    flex: 1;
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .categoryItem {
+    width: calc(50% - 5px); /* Adjust the width of each item and gap */
+    box-sizing: border-box;
+    padding: 10px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Optional: Add border for better visibility */
+  }
+  
+  .categoryItem img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  

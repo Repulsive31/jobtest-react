@@ -1,0 +1,33 @@
+.searchForm{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.searchForm button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.searchForm img{
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer input{
+    width: 50em;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
